@@ -1,12 +1,17 @@
-# React + Vite
+# 🛍️ React Shopping Cart App (Amazon-Inspired)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An elegant, responsive **e-commerce web app** built using **React**, **Redux Toolkit**, and **Tailwind CSS**. Product data is fetched dynamically from the [DummyJSON API](https://dummyjson.com/), and the cart is managed using Redux. Styled to resemble the familiar **Amazon UI experience**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛒 **Shopping Cart** with quantity control and total calculation
+- 📦 **30+ Dynamic Products** from DummyJSON API
+- 🔍 **Search functionality** to filter products
+- 🧾 **Product Detail Page** with full info and image
+- 🎨 **Amazon-like UI** using Tailwind CSS
+- 📱 **Responsive design** for mobile and desktop
+- ❌ Custom **404 Not Found** page
+- 🔁 **Clear cart**, increase/decrease quantity, remove items
+- ⚛️ **Redux Toolkit** integration
