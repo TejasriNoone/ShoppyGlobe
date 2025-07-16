@@ -14,7 +14,7 @@ function Cart() {
       <h1 className="text-3xl font-semibold mb-6 text-gray-800">Your Shopping Cart</h1>
 
       {cartItems.length === 0 ? (
-        <p className="text-gray-600 text-lg">Your Amazon Cart is empty.</p>
+        <p className="text-gray-600 text-lg">Your Cart is empty.</p>
       ) : (
         <>
           <div className="bg-white shadow-sm rounded-md p-6 mb-6">
